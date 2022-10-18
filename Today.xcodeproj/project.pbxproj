@@ -15,8 +15,10 @@
 		78923EBE28FAE14E00AA5A8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78923EBC28FAE14E00AA5A8E /* LaunchScreen.storyboard */; };
 		78923EC728FAE4F300AA5A8E /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78923EC628FAE4F200AA5A8E /* Reminder.swift */; };
 		78EBF04628FE7EB1005E2CFE /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EBF04528FE7EB1005E2CFE /* Date+Today.swift */; };
-		78EBF04928FE839D005E2CFE /* Controller+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EBF04828FE839D005E2CFE /* Controller+DataSource.swift */; };
+		78EBF04928FE839D005E2CFE /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EBF04828FE839D005E2CFE /* ReminderListViewController+DataSource.swift */; };
 		78EBF04B28FE979F005E2CFE /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EBF04A28FE979F005E2CFE /* UIColor+Today.swift */; };
+		78EBF04D28FEA71C005E2CFE /* ReminderDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EBF04C28FEA71C005E2CFE /* ReminderDoneButton.swift */; };
+		78EBF04F28FEA842005E2CFE /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EBF04E28FEA842005E2CFE /* ReminderListViewController+Actions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +32,10 @@
 		78923EBF28FAE14E00AA5A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78923EC628FAE4F200AA5A8E /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		78EBF04528FE7EB1005E2CFE /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
-		78EBF04828FE839D005E2CFE /* Controller+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Controller+DataSource.swift"; sourceTree = "<group>"; };
+		78EBF04828FE839D005E2CFE /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
 		78EBF04A28FE979F005E2CFE /* UIColor+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
+		78EBF04C28FEA71C005E2CFE /* ReminderDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDoneButton.swift; sourceTree = "<group>"; };
+		78EBF04E28FEA842005E2CFE /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				78923EB528FAE14D00AA5A8E /* ReminderListViewController.swift */,
-				78EBF04828FE839D005E2CFE /* Controller+DataSource.swift */,
+				78EBF04828FE839D005E2CFE /* ReminderListViewController+DataSource.swift */,
+				78EBF04C28FEA71C005E2CFE /* ReminderDoneButton.swift */,
+				78EBF04E28FEA842005E2CFE /* ReminderListViewController+Actions.swift */,
 			);
 			path = ListViewController;
 			sourceTree = "<group>";
@@ -167,8 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				78EBF04B28FE979F005E2CFE /* UIColor+Today.swift in Sources */,
-				78EBF04928FE839D005E2CFE /* Controller+DataSource.swift in Sources */,
+				78EBF04F28FEA842005E2CFE /* ReminderListViewController+Actions.swift in Sources */,
+				78EBF04928FE839D005E2CFE /* ReminderListViewController+DataSource.swift in Sources */,
 				78923EB628FAE14D00AA5A8E /* ReminderListViewController.swift in Sources */,
+				78EBF04D28FEA71C005E2CFE /* ReminderDoneButton.swift in Sources */,
 				78EBF04628FE7EB1005E2CFE /* Date+Today.swift in Sources */,
 				78923EB228FAE14D00AA5A8E /* AppDelegate.swift in Sources */,
 				78923EB428FAE14D00AA5A8E /* SceneDelegate.swift in Sources */,
