@@ -8,8 +8,7 @@
 import UIKit
 
 class ReminderListViewController: UICollectionViewController {
-    typealias DataSource = UICollectionViewDiffableDataSource<Int, String>
-    typealias Snapshot = NSDiffableDataSourceSnapshot<Int, String>
+   
     
     var dataSource: DataSource!
 
@@ -18,12 +17,8 @@ class ReminderListViewController: UICollectionViewController {
         let listLayout = listLayout()
         collectionView.collectionViewLayout = listLayout
         
-        let cellRegistration = UICollectionView.CellRegistration { (cell:UICollectionViewListCell, IndexPath: IndexPath, itemIdentifier: String) in
-            let reminder = Reminder.sampleData[IndexPath.item]
-            var contentConfiguration = cell.defaultContentConfiguration()
-            contentConfiguration.text = reminder.title
-            cell.contentConfiguration = contentConfiguration
-        }
+        let cellRegistration = UICollectionView.CellRegistration(handler: cellRegistrationHandler)
+            
         
         dataSource = DataSource(collectionView: collectionView) { (collectionView: UICollectionView, IndexPath: IndexPath, itemIdentifier: String) in
             return collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: IndexPath, item: itemIdentifier)
