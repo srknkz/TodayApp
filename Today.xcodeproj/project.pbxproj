@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7889E0CE290CF90900155D96 /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7889E0CD290CF90900155D96 /* ReminderViewController+Section.swift */; };
 		78923EB228FAE14D00AA5A8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78923EB128FAE14D00AA5A8E /* AppDelegate.swift */; };
 		78923EB428FAE14D00AA5A8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78923EB328FAE14D00AA5A8E /* SceneDelegate.swift */; };
 		78923EB628FAE14D00AA5A8E /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78923EB528FAE14D00AA5A8E /* ReminderListViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7889E0CD290CF90900155D96 /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 		78923EAE28FAE14D00AA5A8E /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78923EB128FAE14D00AA5A8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78923EB328FAE14D00AA5A8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			children = (
 				78EBF05028FEE064005E2CFE /* ReminderViewController.swift */,
 				78EBF05328FEE36A005E2CFE /* ReminderViewController + Row.swift */,
+				7889E0CD290CF90900155D96 /* ReminderViewController+Section.swift */,
 			);
 			path = DetailViewController;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7889E0CE290CF90900155D96 /* ReminderViewController+Section.swift in Sources */,
 				78EBF04B28FE979F005E2CFE /* UIColor+Today.swift in Sources */,
 				78EBF04F28FEA842005E2CFE /* ReminderListViewController+Actions.swift in Sources */,
 				78EBF04928FE839D005E2CFE /* ReminderListViewController+DataSource.swift in Sources */,
